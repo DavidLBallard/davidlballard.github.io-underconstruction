@@ -1,0 +1,41 @@
+body,
+html {
+  height: 100%;
+}
+
+.bgimg {
+  background-image: url("../images/bg.png");
+  background-position: fixed;
+  background-size: cover;
+  position: fixed;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: center;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+  color: white;
+}
